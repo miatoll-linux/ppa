@@ -1,0 +1,18 @@
+Origin: Adaptation Miatoll Repository
+Label: Adaptation-Miatoll
+Suite: bookworm
+Codename: bookworm
+Version: 1.0
+Architectures: arm64
+Components: main
+Description: Adaptation repository for miatoll devices running droidian
+Date: Fri, 03 Jun 2022 16:08:27 +0000
+MD5Sum:
+ 1fde01e311d77091a4bb82391440dd8a 5899 main/binary-arm64/Packages
+ ea3122e41150af7730357b1f1ac1048c 1609 main/binary-arm64/Packages.gz
+SHA1:
+ 92d3dcc8cd55e45a068adba16030fa1136a2301c 5899 main/binary-arm64/Packages
+ e5c3832e9f3a6a591f15a9f10e33006809559390 1609 main/binary-arm64/Packages.gz
+SHA256:
+ b87362fbf179e6d443dd4a1d0c888c53233fd37bd99deea7badc780ecf2a54d6 5899 main/binary-arm64/Packages
+ c56b7000fd03539521a8e209035b410246391804d047afb238f45cffdb2e969d 1609 main/binary-arm64/Packages.gz

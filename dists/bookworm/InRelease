@@ -1,0 +1,38 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Adaptation Miatoll Repository
+Label: Adaptation-Miatoll
+Suite: bookworm
+Codename: bookworm
+Version: 1.0
+Architectures: arm64
+Components: main
+Description: Adaptation repository for miatoll devices running droidian
+Date: Fri, 03 Jun 2022 16:08:27 +0000
+MD5Sum:
+ 1fde01e311d77091a4bb82391440dd8a 5899 main/binary-arm64/Packages
+ ea3122e41150af7730357b1f1ac1048c 1609 main/binary-arm64/Packages.gz
+SHA1:
+ 92d3dcc8cd55e45a068adba16030fa1136a2301c 5899 main/binary-arm64/Packages
+ e5c3832e9f3a6a591f15a9f10e33006809559390 1609 main/binary-arm64/Packages.gz
+SHA256:
+ b87362fbf179e6d443dd4a1d0c888c53233fd37bd99deea7badc780ecf2a54d6 5899 main/binary-arm64/Packages
+ c56b7000fd03539521a8e209035b410246391804d047afb238f45cffdb2e969d 1609 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQJQBAEBCgA6FiEEKkrfNA2Dl8bTRLM25y3QorZqyokFAmKaMg0cHG5pdGFuLm1h
+cmNlbEBwcm90b25tYWlsLmNvbQAKCRDnLdCitmrKiSbkD/9iI4YGcfWSK6dZHl+p
+FKzHapYVEhhFsAVTEIKy7KveA9PDPj/NOUHWo21SvkBYUPyqU7a48DDjVR5XO9H9
+YFgBPL9ZRvdxhSTeXMtGrfY3PgtbU68FChTKNMda1Eco1+8n2DHYzc/thwtaiuaQ
+otIyFt84b220pBCXZD62wqKQ0Kf09tlyhfp/To0kiXKcoB56hSa6mOZE8fWXs1EY
+szx5r0SUdAg46ogg7HmeYOMWdvc8rX7jB/8uZbMVi/hRnAVR3EDt0mRcv+/KTccZ
+TpRz0AxyUK1b75znqk/IldOjR54ZFyVfktQ0Jao2joDXEo9yjd+eF5ojwiqB7VLe
+eekeoA2vXG2EIPqLNtPs4Jag4IvsBcE7yBRN8gi17rSf14/crKUIqRxI4QU4my93
+mvmrcp3LOFwYKrVBBe3m8/lDj3BTY0VoBHfKFWc1nSB26o9UrIuYC/OLmupy1cDO
+SKVXw9mv+JPSLgw8OSo/zr5gsSKdDS74T1c1v8fMKr6obJdEC87h9ge6MHEXMM7H
+39JBvAXnI4mp6dp2LukRh/TcUxx94IfT96UnrRb3Z/KiLnQIHFhI6YvTDzyuCaWJ
+xcbVH8Ljb+flP9OXFysDsvKbuCNfuTk15yQ3ECFLDn59FNUFYVNYS7Dg70mWshYr
+9oOitz40y6RvHzH5p2uzKdoqDA==
+=kGPB
+-----END PGP SIGNATURE-----
