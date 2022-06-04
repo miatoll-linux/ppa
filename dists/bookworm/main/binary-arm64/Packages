@@ -1,14 +1,14 @@
 Package: adaptation-miatoll
-Version: 1.0.2
-Architecture: all
-Maintainer: Giuseppe `r3vn` Corti
+Version: 1.0.3
+Architecture: arm64
+Maintainer: Marcel Alexandru Nitan
 Installed-Size: 9
-Depends: lxc-android (>= 1:9), ofono-scripts, linux-bootimage-xiaomi-miatoll, adaptation-hybris-api29-phone
-Filename: pool/main/adaptation-miatoll_1.0.2_all.deb
-Size: 2232
-MD5sum: c4fda7fa5c12e7dc6eb1d78cc83c82ed
-SHA1: c66aedf7a329fe29516ff95f3e126c9a676db6ba
-SHA256: b9025c089a8ebc76bfeaef37220fb1aab51a0d338ae364e0dbb0b0ff2ae4df1f
+Depends: lxc-android (>= 1:9), ofono-scripts, linux-bootimage-xiaomi-miatoll, adaptation-hybris-api29-phone, adaptation-miatoll-configs
+Filename: pool/main/adaptation-miatoll_1.0.3_arm64.deb
+Size: 2240
+MD5sum: b0064ef69b1aee6f3d0ae343c211a8b9
+SHA1: 007a0653506174299fd93fa0ec7772bd8ad5670f
+SHA256: 897f3c749f079598391bd302303e014fbd310517be835688e46bb1bce3ea3cf5
 Section: metapackages
 Priority: optional
 Description: adapatation-miatoll- meta
@@ -16,16 +16,15 @@ Description: adapatation-miatoll- meta
 
 Package: adaptation-miatoll-configs
 Source: adaptation-miatoll
-Version: 1.0.2
-Architecture: all
-Maintainer: Giuseppe `r3vn` Corti
+Version: 1.0.3
+Architecture: arm64
+Maintainer: Marcel Alexandru Nitan
 Installed-Size: 103
-Depends: adaptation-miatoll (= 1.0.2)
-Filename: pool/main/adaptation-miatoll-configs_1.0.2_all.deb
-Size: 13008
-MD5sum: 0e9da1c037c2e087e0f67659fd497add
-SHA1: 2fb86fa329dd16b3548605d7acd85693b68a356d
-SHA256: 7ba982ab1907f9dde81ed838775f193e30ecadd91099e060a6233b9e9fc6a1ff
+Filename: pool/main/adaptation-miatoll-configs_1.0.3_arm64.deb
+Size: 12972
+MD5sum: d5b7f5fd972c3e2164747a7522e146f7
+SHA1: d851b9fab959877eaf72638b8a9c5fb6ff5cf41c
+SHA256: a1eaf80b76a54a1d1c124b9a7119883645206bde44e4b1ad260f841eec6f2c7c
 Section: metapackages
 Priority: optional
 Description: Miatoll's specific adaptation configs

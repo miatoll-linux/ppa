@@ -6,13 +6,13 @@ Version: 1.0
 Architectures: arm64
 Components: main
 Description: Adaptation repository for miatoll devices running droidian
-Date: Sat, 04 Jun 2022 10:32:47 +0000
+Date: Sat, 04 Jun 2022 10:50:13 +0000
 MD5Sum:
- 7dd06233a3877414e6688c35ad5ae0e3 5899 main/binary-arm64/Packages
- ea45f9cf4eecaa53fb92db1eb399bfc8 1607 main/binary-arm64/Packages.gz
+ 84ee1afbca7df1ff3c2c441c454d2cf7 5899 main/binary-arm64/Packages
+ 06e9344f67d66523362d5d6b7ccee06e 1592 main/binary-arm64/Packages.gz
 SHA1:
- 820d51f19cc35518c53d82a8702a7c86347411d9 5899 main/binary-arm64/Packages
- 5cdccbb60559217c992eb3ad9d5b1b6a5b03e615 1607 main/binary-arm64/Packages.gz
+ aa223b86650eba18f5dc54763b4698f6f3e73383 5899 main/binary-arm64/Packages
+ 32f0909797619bb230aaad5f7567d8a68f020de0 1592 main/binary-arm64/Packages.gz
 SHA256:
- 64e8e0d2bcf54316a36586a3e1f1ed207fff4ddcba5f21f43a6a88546deaa762 5899 main/binary-arm64/Packages
- be4235e66368ae930a57a9b0107762e96972039a97eb65fb919e9f50e5353839 1607 main/binary-arm64/Packages.gz
+ 303a34fee178525ad0c96f4e98644df37f60cd07531266e67a5693bbd51f895a 5899 main/binary-arm64/Packages
+ 8c5747ec86e9aa18e579762aa049325af8554c28b755ac1d27f0e79ef39d70ff 1592 main/binary-arm64/Packages.gz
