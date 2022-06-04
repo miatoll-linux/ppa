@@ -1,14 +1,14 @@
 Package: adaptation-miatoll
-Version: 1.0.1
+Version: 1.0.2
 Architecture: all
 Maintainer: Giuseppe `r3vn` Corti
 Installed-Size: 9
 Depends: lxc-android (>= 1:9), ofono-scripts, linux-bootimage-xiaomi-miatoll, adaptation-hybris-api29-phone
-Filename: pool/main/adaptation-miatoll_1.0.1_all.deb
-Size: 2164
-MD5sum: 5d0dda00666b42baac1505309d2e4214
-SHA1: 92957e8d427ad3c2f2567a70764d1aa02ddf0564
-SHA256: eb1c92709b081bf3378d6f383d39f3da94f1686f92e07625a475a00b193b8eb2
+Filename: pool/main/adaptation-miatoll_1.0.2_all.deb
+Size: 2232
+MD5sum: c4fda7fa5c12e7dc6eb1d78cc83c82ed
+SHA1: c66aedf7a329fe29516ff95f3e126c9a676db6ba
+SHA256: b9025c089a8ebc76bfeaef37220fb1aab51a0d338ae364e0dbb0b0ff2ae4df1f
 Section: metapackages
 Priority: optional
 Description: adapatation-miatoll- meta
@@ -16,16 +16,16 @@ Description: adapatation-miatoll- meta
 
 Package: adaptation-miatoll-configs
 Source: adaptation-miatoll
-Version: 1.0.1
+Version: 1.0.2
 Architecture: all
 Maintainer: Giuseppe `r3vn` Corti
-Installed-Size: 100
-Depends: adaptation-miatoll (= 1.0.1)
-Filename: pool/main/adaptation-miatoll-configs_1.0.1_all.deb
-Size: 12772
-MD5sum: 5743d403719d910565ada159e5de3c44
-SHA1: 5eff96797e012b777175a961cbef702cf10b4117
-SHA256: 8b3b96bd72e470459559446c3d66a3db304afc5be90de9ca455ba39cee6619ed
+Installed-Size: 103
+Depends: adaptation-miatoll (= 1.0.2)
+Filename: pool/main/adaptation-miatoll-configs_1.0.2_all.deb
+Size: 13008
+MD5sum: 0e9da1c037c2e087e0f67659fd497add
+SHA1: 2fb86fa329dd16b3548605d7acd85693b68a356d
+SHA256: 7ba982ab1907f9dde81ed838775f193e30ecadd91099e060a6233b9e9fc6a1ff
 Section: metapackages
 Priority: optional
 Description: Miatoll's specific adaptation configs
