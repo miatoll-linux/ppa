@@ -1,14 +1,14 @@
 Package: adaptation-miatoll
-Version: 1.0.4
+Version: 1.0.5
 Architecture: arm64
 Maintainer: Marcel Alexandru Nitan
 Installed-Size: 9
 Depends: lxc-android (>= 1:9), ofono-scripts, linux-bootimage-xiaomi-miatoll, adaptation-hybris-api29-phone, adaptation-miatoll-configs
-Filename: pool/main/adaptation-miatoll_1.0.4_arm64.deb
-Size: 2264
-MD5sum: 4f5db80885c35df0804e0d6216c0a7cd
-SHA1: 04cb395eb6640988561a942e080465f8d0210053
-SHA256: 401839b4d74c8f9bd8d4848567f04cf03c386970c2edf755047d56c736664374
+Filename: pool/main/adaptation-miatoll_1.0.5_arm64.deb
+Size: 2320
+MD5sum: d121dfe0fba446f14b4a9fcdbf42dabc
+SHA1: 026328cbb5181924ab8efc7ab22e55b2c438e5f6
+SHA256: 46f3fe2a1b2f2f01ce788b465cf344f94e4162e970dd7cd64d43b2d59aac0a78
 Section: metapackages
 Priority: optional
 Description: adapatation-miatoll- meta
@@ -16,15 +16,15 @@ Description: adapatation-miatoll- meta
 
 Package: adaptation-miatoll-configs
 Source: adaptation-miatoll
-Version: 1.0.4
+Version: 1.0.5
 Architecture: arm64
 Maintainer: Marcel Alexandru Nitan
-Installed-Size: 103
-Filename: pool/main/adaptation-miatoll-configs_1.0.4_arm64.deb
-Size: 12988
-MD5sum: b7648842e89580c1b546999b8f3e715d
-SHA1: c14bd07b6b1c7dcca37b5379f4ec4de0541a9ed6
-SHA256: d9c83b585e18b232efdcdf8f1ef36763b6c11200f139da71cc570efe201ee6cd
+Installed-Size: 106
+Filename: pool/main/adaptation-miatoll-configs_1.0.5_arm64.deb
+Size: 13652
+MD5sum: 3d12121e215c422ad885a74d30e82512
+SHA1: 47130b8517c76b8038d797fa6d039750793f4710
+SHA256: 936d0cb46c949ad4f177732f610c34d22f8d9add24c54410c6e8c5fdf6fc6cca
 Section: metapackages
 Priority: optional
 Description: Miatoll's specific adaptation configs
