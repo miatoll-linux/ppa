@@ -9,36 +9,36 @@ Version: 1.0
 Architectures: arm64
 Components: main
 Description: Adaptation repository for miatoll devices running droidian
-Date: Thu, 16 Jun 2022 17:52:05 +0000
+Date: Fri, 17 Jun 2022 19:08:04 +0000
 MD5Sum:
- 4a367cb2264f275f1a7b5b61bd849e89 2067 InRelease
- 19722f9718cf9ebfbf3bf268fdcf272c 874 Release.gpg
- 0e3b62d6ab55734752003763e3c627fc 5899 main/binary-arm64/Packages
- bfef7ff50158c0c6f6ad026120f733c2 1598 main/binary-arm64/Packages.gz
+ c5c4d30c910576ccfb0e171f0312a25d 2067 InRelease
+ 0b107a5a11e7e05af395d2b064dca9e7 874 Release.gpg
+ 11e95a95042fc979820a30605002c8dd 5899 main/binary-arm64/Packages
+ fa31dfc5a6507828d1815c21bf3ecab9 1599 main/binary-arm64/Packages.gz
 SHA1:
- 03a45f201a94c9aff08eee1993471b54f6b3daa9 2067 InRelease
- 3245edf024e32d150558b841f34cbe2f74127325 874 Release.gpg
- ae71be0b517c19440308cbc22a767fdc3b8a519f 5899 main/binary-arm64/Packages
- 59904dc89ccd16b30228c9903469d84d8023950e 1598 main/binary-arm64/Packages.gz
+ ea6f5bb20abb1732c700c515fecf99190d4753f2 2067 InRelease
+ cc3bec3f91b790d7f58540c0ea105bdd45c80577 874 Release.gpg
+ 2ba7d3b704b2df1895e0cd5bb49a8fd02ebcf704 5899 main/binary-arm64/Packages
+ 4556735a30b96bce12133fb25cfaf91975d5d012 1599 main/binary-arm64/Packages.gz
 SHA256:
- f443cdef89c2a7f17815ee2b8aa4953011983850cfc5997bdd01789db2d8ac3d 2067 InRelease
- 9c874e6d2eee223e9cd24a634eb68c3d1bbfca7e41f3eb12b29eb50662cc7b6b 874 Release.gpg
- d44a1906ca40f9551e977d00ba9a26c5ae254f102a86f1950d6a79103af04352 5899 main/binary-arm64/Packages
- 8a668a47c0ce35f9203573c30ac8cff9ce232eab9f2ccf0d94c6273689832799 1598 main/binary-arm64/Packages.gz
+ d01e67a215feb5224c3d288e22fe0c41b7f728d2ffd13448efc50b9117fc2506 2067 InRelease
+ 3991cced522988b2069390a18f821c5f01bdd4f0c06a99eb53596a5c0dc149e2 874 Release.gpg
+ d9ae4157479b8ac2f10fc6d1f809cb238f61cc993059878416597b740b03f21d 5899 main/binary-arm64/Packages
+ bdd3164bb16cc02e6473f71163fde8bf8c662b7138eb83a0aa62c8ddc42d5bc3 1599 main/binary-arm64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQJQBAEBCgA6FiEEKkrfNA2Dl8bTRLM25y3QorZqyokFAmKrbdEcHG5pdGFuLm1h
-cmNlbEBwcm90b25tYWlsLmNvbQAKCRDnLdCitmrKiVXnEACK8rfkXVo+PbqvBSYl
-44TXeq9aCOVJvBggXTq2T33U8fHSk7RbpWh8RQBx3DCmySwwFzKx2WzNAEol3eKK
-rRucYsMaGALzTtaVtpsnM50Cd7uNBiiQOe8ApIMe5CZO7i5i4SUofA8vrRM5vi9t
-Fk4K+58ebvBpiVlNirxxRCKi/AvQmPGqoYD1G/NZ8TU8yJd8J0F+dIjcO1/3XIPY
-8ax8tvYMxv5Kf+8l9BLdqSh+1MjwuHAIg0KKUYXBXQYZS1kGy0rSStQrbZtvRmOo
-q0Pr02ra4swkCjCAA1VJGPTWHX0AXVUC8pVDYktuiQVaw1qqS1Zkenq3jbFWc/1O
-6LpzUw0sN4vpANlgkJle2wJ7KokMTuSoV5oczgQAwhMJmEu9PMW2JcqH4VF+3/mE
-z8o8NTq2dfSnyGhdJybL9OtibNivnmw+ZOaoDniUFCAUKu0LTGo8N2XPo31dEK6J
-p5ojGcx1EDcLSGLRm+r4qczZbWMMdXorOtfX4G02lXSjZsQ3Vp+ooSrqv2+lAZxL
-BkM1ZVxNnEosNpaNN9aVzt383YfwrtvJegsBdVah6+LCtOjl+nMlouXRs9sPZciH
-UZm1e2RX1LmdZJqOFUUTXJsSn/wfSKslA8TlqchaTG/Y+ofJqygdIk0W0XJFxJUL
-XDcjAMxotNVsxtdThiagfdZsnw==
-=tinF
+iQJQBAEBCgA6FiEEKkrfNA2Dl8bTRLM25y3QorZqyokFAmKs0TYcHG5pdGFuLm1h
+cmNlbEBwcm90b25tYWlsLmNvbQAKCRDnLdCitmrKiZABD/9Ai45xxkbeMriVeCC8
+fOgHhZP0hT21rmXqL2sPGQos501WwdMtylSm6PStb/0oQ8tQqP+wKfXJRPkvWR/b
+D8ioHJVIakF5K2a/3wOyZMT8VF2/YAQvmYROhftdgAm/LCjXRw/DgEVoJsR13+sY
+Tynuv+AOV807z0AksEMg+PBTQO3DZSVT8ihFQBigODW5FZOwiG1/XppEZsC819TY
+4PdxpJ2sCraUHXw/qpf6ZerX3Y1Xrn5mtg18Galj0AuxIbbaujoK1d+dfHqCgUl1
+v6If7OS/BCR2R/wCM6MN/bTou/7EYPMqpIcTOAoIQbYSU2QFb0XNBCLKXeDXV0z9
+b+WAQkO+a7MzUnxC687malDgDDkSU62OWwuOEnlDF+mpeJwdRi+t1Vag1hcgT0Nv
+zsFEpCA/FWzLGONi/0khXxertKCXHyr34ahKPQJMA/ZMi3c+qQTBbAh5tmAVWOLf
+6E3FaOUIVC76FNgL8wh5AUgNc6h1P+rc2WpZRbC+NrkaJTuMFIWxbO79Nl1UL8zP
+vZcwQ4+PBrneY8A+tdIj0YQAo5bs9Lnh39dLwdhbtxWnA0L+zyJhl5OV3d8/s0PT
+SKCiFS0AoxR7M6XoMvEsVPWYw5xAQh+xzbACuKbA3/c++4SRefafYn02vIugRhXa
+xHUiAy8tHInvVIrOAzxYSg24Og==
+=2xbf
 -----END PGP SIGNATURE-----
