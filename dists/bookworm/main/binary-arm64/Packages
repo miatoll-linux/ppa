@@ -29,19 +29,19 @@ Section: metapackages
 Priority: optional
 Description: Miatoll's specific adaptation configs
 
-Package: linux-bootimage-4.14-257-xiaomi-miatoll
+Package: linux-bootimage-4.14-288-xiaomi-miatoll
 Source: linux-android-xiaomi-miatoll
-Version: 0.0.0+git20220706104301.9ad9d29.bookworm
+Version: 0.0.0+git20220730110400.4307059.bookworm
 Architecture: arm64
 Maintainer: Droidian porters <info@droidian.org>
-Installed-Size: 66964
+Installed-Size: 66975
 Pre-Depends: flash-bootimage (>= 4)
-Depends: linux-image-4.14-257-xiaomi-miatoll (= 0.0.0+git20220706104301.9ad9d29.bookworm)
-Filename: pool/main/linux-bootimage-4.14-257-xiaomi-miatoll_0.0.0+git20220706104301.9ad9d29.bookworm_arm64.deb
-Size: 66393784
-MD5sum: 04dd61fadddd2c928c1893155d268552
-SHA1: f8aecc2df6e242f966977e83d3b089390e7743db
-SHA256: f68c182300a9f2dfc133c27c0a403b449429c8d7f36c317fe992f51bd14f619a
+Depends: linux-image-4.14-288-xiaomi-miatoll (= 0.0.0+git20220730110400.4307059.bookworm)
+Filename: pool/main/linux-bootimage-4.14-288-xiaomi-miatoll_0.0.0+git20220730110400.4307059.bookworm_arm64.deb
+Size: 66400732
+MD5sum: b72ce0a654d29c3d2e452d40f8f9ef26
+SHA1: 0e45ef3c9327981e967cdfffb4ec53ea573bb14f
+SHA256: 8564253209ddb23cf21982dd9f933ad3249c5af6158d5b87553f8921265c3889
 Section: kernel
 Priority: optional
 Description: Linux kernel for Xiaomi Miatoll - Android Boot Image
@@ -52,33 +52,33 @@ Description: Linux kernel for Xiaomi Miatoll - Android Boot Image
 
 Package: linux-bootimage-xiaomi-miatoll
 Source: linux-android-xiaomi-miatoll
-Version: 0.0.0+git20220706104301.9ad9d29.bookworm
+Version: 0.0.0+git20220730110400.4307059.bookworm
 Architecture: arm64
 Maintainer: Droidian porters <info@droidian.org>
-Installed-Size: 753
-Depends: linux-bootimage-4.14-257-xiaomi-miatoll (= 0.0.0+git20220706104301.9ad9d29.bookworm)
-Filename: pool/main/linux-bootimage-xiaomi-miatoll_0.0.0+git20220706104301.9ad9d29.bookworm_arm64.deb
-Size: 760520
-MD5sum: 1a68f6097fcb08484afe0a426ca2d063
-SHA1: 4a8eaec8ebb409bcf5aa8a06f014ecef4a5ad608
-SHA256: ec0947db4aa52db639538e5c1614892097e2c93f5be2ed12f059ce128c86e9b3
+Installed-Size: 756
+Depends: linux-bootimage-4.14-288-xiaomi-miatoll (= 0.0.0+git20220730110400.4307059.bookworm)
+Filename: pool/main/linux-bootimage-xiaomi-miatoll_0.0.0+git20220730110400.4307059.bookworm_arm64.deb
+Size: 763856
+MD5sum: 0581925c953a6798f2dd559f36da3a4c
+SHA1: 047dc4d8f8168c03a4682fccc8dcfe00c170cf55
+SHA256: 76bc57a6cc5bb029a0d88cd20c358d6cf74295b4a29f5143b222b20b1d94b140
 Section: kernel
 Priority: optional
 Description: Linux kernel for Xiaomi Miatoll - Android Boot Image  (latest)
  This package depends to the latest kernel bootimage available for the Xiaomi Miatoll.
 
-Package: linux-headers-4.14-257-xiaomi-miatoll
+Package: linux-headers-4.14-288-xiaomi-miatoll
 Source: linux-android-xiaomi-miatoll
-Version: 0.0.0+git20220706104301.9ad9d29.bookworm
+Version: 0.0.0+git20220730110400.4307059.bookworm
 Architecture: arm64
 Maintainer: Droidian porters <info@droidian.org>
-Installed-Size: 56464
-Depends: linux-image-4.14-257-xiaomi-miatoll (= 0.0.0+git20220706104301.9ad9d29.bookworm)
-Filename: pool/main/linux-headers-4.14-257-xiaomi-miatoll_0.0.0+git20220706104301.9ad9d29.bookworm_arm64.deb
-Size: 9328516
-MD5sum: 2bdb69a9098890ff2eabf14c151eee25
-SHA1: d1db6c9729bb945e0bc43ee9b8c1c34e79a69942
-SHA256: 3066075f72dda94814b7e9d3ecb47a5276eb95eb6cae8358849c47bce9647a5c
+Installed-Size: 56488
+Depends: linux-image-4.14-288-xiaomi-miatoll (= 0.0.0+git20220730110400.4307059.bookworm)
+Filename: pool/main/linux-headers-4.14-288-xiaomi-miatoll_0.0.0+git20220730110400.4307059.bookworm_arm64.deb
+Size: 9337516
+MD5sum: 9ca71ddfb138ecf2fcd4bc99ae18bb7f
+SHA1: 71c0fc3e8f7a5b1769a774b28b0952b2aa37caa0
+SHA256: 0c3683fc71096c77d695eb56cef477808032237b837984d6a813b838e2cad170
 Section: kernel
 Priority: optional
 Description: Linux kernel for Xiaomi Miatoll - Headers
@@ -86,53 +86,53 @@ Description: Linux kernel for Xiaomi Miatoll - Headers
 
 Package: linux-headers-xiaomi-miatoll
 Source: linux-android-xiaomi-miatoll
-Version: 0.0.0+git20220706104301.9ad9d29.bookworm
+Version: 0.0.0+git20220730110400.4307059.bookworm
 Architecture: arm64
 Maintainer: Droidian porters <info@droidian.org>
-Installed-Size: 753
-Depends: linux-headers-4.14-257-xiaomi-miatoll (= 0.0.0+git20220706104301.9ad9d29.bookworm)
-Filename: pool/main/linux-headers-xiaomi-miatoll_0.0.0+git20220706104301.9ad9d29.bookworm_arm64.deb
-Size: 760508
-MD5sum: 21fee455251b1c0766a84b080f0c02f9
-SHA1: 4dc6de9958710de9bc4ae89c37897b750b3f54e9
-SHA256: 0e1410adefc5b10c094566e50079699c05acd6790ee5b4b6af86648c8347f591
+Installed-Size: 756
+Depends: linux-headers-4.14-288-xiaomi-miatoll (= 0.0.0+git20220730110400.4307059.bookworm)
+Filename: pool/main/linux-headers-xiaomi-miatoll_0.0.0+git20220730110400.4307059.bookworm_arm64.deb
+Size: 763848
+MD5sum: f093369fb5c9c7f6182130905270d1e6
+SHA1: 3535f3cc99e8fa0a48262250b2bfb923843a81e2
+SHA256: b8f57ccfc4fdc793899268d47b6caf38ef183d78608551c2e9f7a18ec52ab09e
 Section: kernel
 Priority: optional
 Description: Linux kernel for Xiaomi Miatoll - Headers (latest)
  This package depends to the latest kernel headers available for the Xiaomi Miatoll.
 
-Package: linux-image-4.14-257-xiaomi-miatoll
+Package: linux-image-4.14-288-xiaomi-miatoll
 Source: linux-android-xiaomi-miatoll
-Version: 0.0.0+git20220706104301.9ad9d29.bookworm
+Version: 0.0.0+git20220730110400.4307059.bookworm
 Architecture: arm64
 Maintainer: Droidian porters <info@droidian.org>
-Installed-Size: 23061
-Filename: pool/main/linux-image-4.14-257-xiaomi-miatoll_0.0.0+git20220706104301.9ad9d29.bookworm_arm64.deb
-Size: 17342684
-MD5sum: 08d2b30f7c08855842621c72c0f042dc
-SHA1: 5a12132836d5f172a50dd070810507bc7d003ade
-SHA256: 764d3d4f39252a53350cf14c13eae6de9863d1bf0a81d711315fd3efb59dcd2f
+Installed-Size: 23064
+Filename: pool/main/linux-image-4.14-288-xiaomi-miatoll_0.0.0+git20220730110400.4307059.bookworm_arm64.deb
+Size: 17346796
+MD5sum: 6ba68e19d2e10c937647f10bb09ea76a
+SHA1: a84929e3230856bdd6d4da1f69349af8a838d787
+SHA256: 3d7871dc58bc8ac8a8408bda74b9fada4f19649a4bd4d80bfa1235fa4f859437
 Section: kernel
 Priority: optional
 Description: Linux kernel for Xiaomi Miatoll
  This package contains the Linux kernel for the Xiaomi Miatoll device.
  .
  Note: This package only ships the kernel image and modules, you should probably
- look at the linux-bootimage-4.14-257-xiaomi-miatoll package for a bootimage suitable
+ look at the linux-bootimage-4.14-288-xiaomi-miatoll package for a bootimage suitable
  for Android boot loaders.
 
 Package: linux-image-xiaomi-miatoll
 Source: linux-android-xiaomi-miatoll
-Version: 0.0.0+git20220706104301.9ad9d29.bookworm
+Version: 0.0.0+git20220730110400.4307059.bookworm
 Architecture: arm64
 Maintainer: Droidian porters <info@droidian.org>
-Installed-Size: 753
-Depends: linux-image-4.14-257-xiaomi-miatoll (= 0.0.0+git20220706104301.9ad9d29.bookworm)
-Filename: pool/main/linux-image-xiaomi-miatoll_0.0.0+git20220706104301.9ad9d29.bookworm_arm64.deb
-Size: 760500
-MD5sum: bdaa0dcf5da91e2176a762cd8038d82a
-SHA1: 3f9b92774f33d7106966b0c870c7f8af071cbab5
-SHA256: 3f4620443b2113bd16c0bb4957b0a15506f836d1db66c6f305207606ef96e12e
+Installed-Size: 756
+Depends: linux-image-4.14-288-xiaomi-miatoll (= 0.0.0+git20220730110400.4307059.bookworm)
+Filename: pool/main/linux-image-xiaomi-miatoll_0.0.0+git20220730110400.4307059.bookworm_arm64.deb
+Size: 763840
+MD5sum: 9086ccfcc68e63735fca4073f131aaa1
+SHA1: eee91be092dd899fce488eea7fc8833e594dc668
+SHA256: 78dbf12ec229d7c941b823da99273fef1d2f628f86d2b99d7dc3003c362c45aa
 Section: kernel
 Priority: optional
 Description: Linux kernel for Xiaomi Miatoll (latest)
