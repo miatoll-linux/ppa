@@ -21,10 +21,10 @@ Architecture: arm64
 Maintainer: Marcel Alexandru Nitan
 Installed-Size: 108
 Filename: pool/main/adaptation-miatoll-configs_1.0.9fix_arm64.deb
-Size: 14152
-MD5sum: 679d2e715cee78b7a92dc35aff32e1fb
-SHA1: 140c4712d55a65ab661dbbb1b1f8e5fbed03f503
-SHA256: c0e5d221116e0739d9348e9e2da980cbb514227157d6bcfa5edca0a4b960590a
+Size: 14148
+MD5sum: 29b0f23c391d0d91559e2b2f903c1e2b
+SHA1: e439af4ced0ddd72aa7cb61c81d7ad5f8dc5c9fd
+SHA256: 8dd3af95aec1d076b7dc918960715a5f6bc98ace673eb80265814128682e67cc
 Section: metapackages
 Priority: optional
 Description: Miatoll's specific adaptation configs
