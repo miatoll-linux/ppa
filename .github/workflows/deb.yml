@@ -1,0 +1,79 @@
+name: Deb Build
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [build-bot]
+
+env:
+  ORGANIZATION: miatoll-linux
+
+jobs:
+  build:
+    name: Build
+    strategy:
+      matrix:
+        package: ["droidian-adaptation-miatoll"]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout ${{ matrix.package }}
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ env.ORGANIZATION }}/${{ matrix.package }}
+          submodules: true
+      - name: Build ${{ env.ORGANIZATION }}/${{ matrix.package }}
+        uses: jtdor/build-deb-action@v1
+        with:
+          host-arch: arm64
+          artifacts-dir: artifacts
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ env.ORGANIZATION }}_${{ matrix.package }}
+          path: |
+            artifacts/*.deb
+
+  publish:
+    name: Publish
+    needs: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout apt repository
+        uses: actions/checkout@v3
+        with:
+          ref: bookworm
+          submodules: true
+      - name: Import GPG key
+        uses: crazy-max/ghaction-import-gpg@v5
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.PASSPHRASE }}
+      - name: Download built artifacts
+        uses: actions/download-artifact@v3
+        with:
+          path: artifacts
+      - name: Copy deb packages
+        run: |
+          mv artifacts/*/*.deb pool/main/
+          rm -rf artifacts
+      - name: Update and sign apt repository
+        run: |
+          homedir="$(pwd)"
+          dpkg-scanpackages --arch arm64 pool/ > dists/bookworm/main/binary-arm64/Packages
+          cat dists/bookworm/main/binary-arm64/Packages | gzip -9 > dists/bookworm/main/binary-arm64/Packages.gz
+          cd dists/bookworm
+          $homedir/generate-release.sh > Release
+          gpg --default-key "nitan.marcel@protonmail.com" -abs -o - Release > Release.gpg
+          gpg --default-key "nitan.marcel@protonmail.com" --clearsign -o - Release > InRelease
+          cd $homedir
+      - name: Push apt repository changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GH_TOKEN }}
+          author_name: Marcel Alexandru Nitan
+          author_email: nitan.marcel@protonmail.com
+          message: "Update packages"
+          branch: "bookworm"
+
+
+
