@@ -29,6 +29,23 @@ Section: metapackages
 Priority: optional
 Description: Miatoll's specific adaptation configs
 
+Package: droidatoll-sysfs-torch
+Version: 0.0.1
+Architecture: all
+Maintainer: Marcel Alexandru Nitan <nitanmarcel@protonmail.com>
+Installed-Size: 755
+Depends: libqt5core5a
+Filename: pool/main/droidatoll-sysfs-torch_0.0.1_all.deb
+Size: 192952
+MD5sum: 3d5a36548fa01141811f151f3a89c22f
+SHA1: 4c79a0cb9434ccded32e38ad55b1b8f7ec41e28d
+SHA256: 78f55e363fa3f632bc80a89f8b188eb5f95d321879959d0e65e941de3ce7fbd0
+Section: mist
+Priority: optional
+Homepage: https://github.com/miatoll-linux/droidian-droidatoll-sysfs-torch
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
 Package: linux-bootimage-4.14-288-xiaomi-miatoll
 Source: linux-android-xiaomi-miatoll
 Version: 0.0.0+git20220730110400.4307059.bookworm
