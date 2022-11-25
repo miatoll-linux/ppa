@@ -2,8 +2,6 @@ name: Deb Build
 
 on:
   workflow_dispatch:
-  push:
-    branches: [build-bot]
 
 env:
   ORGANIZATION: miatoll-linux
