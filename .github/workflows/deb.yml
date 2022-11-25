@@ -13,7 +13,7 @@ jobs:
     name: Build
     strategy:
       matrix:
-        package: ["droidian-adaptation-miatoll"]
+        package: ["droidian-adaptation-miatoll", "droidian-droidatoll-sysfs-torch"]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout ${{ matrix.package }}
