@@ -30,16 +30,16 @@ Priority: optional
 Description: Miatoll's specific adaptation configs
 
 Package: droidatoll-sysfs-torch
-Version: 0.0.1
+Version: 0.0.2
 Architecture: all
 Maintainer: Marcel Alexandru Nitan <nitanmarcel@protonmail.com>
 Installed-Size: 755
 Depends: libqt5core5a
-Filename: pool/main/droidatoll-sysfs-torch_0.0.1_all.deb
-Size: 192952
-MD5sum: 3d5a36548fa01141811f151f3a89c22f
-SHA1: 4c79a0cb9434ccded32e38ad55b1b8f7ec41e28d
-SHA256: 78f55e363fa3f632bc80a89f8b188eb5f95d321879959d0e65e941de3ce7fbd0
+Filename: pool/main/droidatoll-sysfs-torch_0.0.2_all.deb
+Size: 193136
+MD5sum: 49de4c144cc88bbc159de634694ac292
+SHA1: 9277dc1d2d6fc51c8bf90af611191c7047e62dd0
+SHA256: fa12bc2b10316eccedeabdfd4c428b0e57e8a8093a45d2b6e62f8189165feec7
 Section: mist
 Priority: optional
 Homepage: https://github.com/miatoll-linux/droidian-droidatoll-sysfs-torch
