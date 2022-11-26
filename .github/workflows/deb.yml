@@ -1,25 +1,19 @@
 name: Deb Build
 
 on:
-  workflow_dispatch:
-
-env:
-  ORGANIZATION: miatoll-linux
+  repository_dispatch:
 
 jobs:
   build:
     name: Build
-    strategy:
-      matrix:
-        package: ["droidian-adaptation-miatoll", "droidian-droidatoll-sysfs-torch"]
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout ${{ matrix.package }}
+      - name: Checkout ${{ github.event.client_payload.repository }}
         uses: actions/checkout@v3
         with:
-          repository: ${{ env.ORGANIZATION }}/${{ matrix.package }}
+          repository: ${{ github.event.client_payload.repository }}
           submodules: true
-      - name: Build ${{ env.ORGANIZATION }}/${{ matrix.package }}
+      - name: Build ${{ github.event.client_payload.repository }}
         uses: jtdor/build-deb-action@v1
         with:
           host-arch: arm64
@@ -27,7 +21,6 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: ${{ env.ORGANIZATION }}_${{ matrix.package }}
           path: |
             artifacts/*.deb
 
