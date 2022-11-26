@@ -8,6 +8,8 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
+      - name: Queue
+        uses: ahmadnassri/action-workflow-queue@v1
       - name: Checkout ${{ github.event.client_payload.repository }}
         uses: actions/checkout@v3
         with:
@@ -71,12 +73,10 @@ jobs:
     if: always()
     runs-on: ubuntu-latest
     steps:
-          - name: call webhook to delete artifacts
-      env:
-        WEBHOOKS_SECRET: ${{ secrets.WEBHOOKS_SECRET }}
-      run: |
-        echo "::add-mask::$WEBHOOKS_SECRET"
-        curl --verbose --fail --show-error --location --request POST "https://api.github.com/repos/$GITHUB_REPOSITORY/dispatches" --header "Authorization: token $WEBHOOKS_SECRET" --header 'Content-Type: application/json' --header 'Accept: application/vnd.github.everest-preview+json' --data-raw "{ \"event_type\": \"delete_all_artifacts\", \"client_payload\": {\"parent_runid\": \"$GITHUB_RUN_ID\", \"parent_repo\": \"$GITHUB_REPOSITORY\"} }"
-
-
+    - name: Clean old workflow runs
+      uses: Mattraks/delete-workflow-runs@v2
+      with:
+        token: ${{ github.token }}
+        repository: ${{ github.repository }}
+        keep_minimum_runs: 1
 
