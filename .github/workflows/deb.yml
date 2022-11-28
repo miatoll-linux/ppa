@@ -2,29 +2,41 @@ name: Deb Build
 
 on:
   repository_dispatch:
+  workflow_dispatch:
+
+env:
+  RELENG_HOST_ARCH: arm64
+  DISTRIBUTION: bookworm
+  AUTHOR_EMAIL: nitan.marcel@protonmail.com
+  AUTHOR_NAME: Marcel Alexandru Nitan
 
 jobs:
   build:
     name: Build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: Queue
         uses: ahmadnassri/action-workflow-queue@v1
-      - name: Checkout ${{ github.event.client_payload.repository }}
+      - uses: actions/checkout@v3
+      - name: Clone ${{ github.event.client_payload.repository }}
         uses: actions/checkout@v3
         with:
           repository: ${{ github.event.client_payload.repository }}
           submodules: true
-      - name: Build ${{ github.event.client_payload.repository }}
-        uses: jtdor/build-deb-action@v1
-        with:
-          host-arch: arm64
-          artifacts-dir: artifacts
+          path: source
+          ref: ${{ env.DISTRIBUTION }}
+      - name: Build docker image
+        run: |
+          docker build . -t debbuild
+      - name: Build packages
+        run: |
+          docker run --privileged -e RELENG_HOST_ARCH="${{ env.RELENG_HOST_ARCH }}" -v $(pwd):/buildd -v /dev:/host-dev -v /sys/fs/cgroup:/sys/fs/cgroup -v $(pwd)/source:/buildd/sources --security-opt seccomp:unconfined debbuild
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
         with:
+          if-no-files-found: error
           path: |
-            artifacts/*.deb
+            *.deb
 
   publish:
     name: Publish
@@ -78,5 +90,6 @@ jobs:
       with:
         token: ${{ github.token }}
         repository: ${{ github.repository }}
-        retain_days: 1
+        retain_days: 0
+        keep_minimum_runs: 1
 
