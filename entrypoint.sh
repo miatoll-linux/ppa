@@ -1,8 +1,12 @@
 #!/bin/bash
 
-find / debian
-
 apt-get install linux-packaging-snippets
 cd sources
-debian/rules debian/control
+
+if [[ $_DEB_BUILD_TYPE == kernel ]]; 
+then
+    rm debian/control
+    debian/rules debian/control
+fi
+
 releng-build-package

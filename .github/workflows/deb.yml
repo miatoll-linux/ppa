@@ -30,7 +30,7 @@ jobs:
           docker build . -t debbuild
       - name: Build packages
         run: |
-          docker run --privileged -e RELENG_HOST_ARCH="${{ env.RELENG_HOST_ARCH }}" -v $(pwd):/buildd -v /dev:/host-dev -v /sys/fs/cgroup:/sys/fs/cgroup -v $(pwd)/source:/buildd/sources --security-opt seccomp:unconfined debbuild
+          docker run --privileged -e _DEB_BUILD_TYPE="${{ github.event.client_payload.build_type }}" -e RELENG_HOST_ARCH="${{ env.RELENG_HOST_ARCH }}" -v $(pwd):/buildd -v /dev:/host-dev -v /sys/fs/cgroup:/sys/fs/cgroup -v $(pwd)/source:/buildd/sources --security-opt seccomp:unconfined debbuild
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
         with:
