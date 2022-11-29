@@ -55,10 +55,10 @@ Installed-Size: 66642
 Pre-Depends: flash-bootimage (>= 4)
 Depends: linux-image-4.14-288-xiaomi-miatoll (= 0.0.0+git20221129000753.8baf03f.bookworm)
 Filename: pool/main/linux-bootimage-4.14-288-xiaomi-miatoll_0.0.0+git20221129000753.8baf03f.bookworm_arm64.deb
-Size: 66054696
-MD5sum: b2639fd03287944139635fb37efe6a74
-SHA1: 2e52ccb0e312b5f4fa4bf7a2a85f935cf7340464
-SHA256: 5066f49ca03ac089933bdcd577fce63a18b4dcb980b504707a896c05f341dc64
+Size: 66055004
+MD5sum: d3ecfa71f3bedbced7f678e5999fa2f0
+SHA1: 29c8872c7527df7c053263072b6082d85b047f34
+SHA256: 66e46f4cda2e2e3ba8912a63b3fd667d0c684fea30c794c83034f1e3fd83cde9
 Section: kernel
 Priority: optional
 Description: Linux kernel for Xiaomi Miatoll - Android Boot Image
@@ -92,10 +92,10 @@ Maintainer: Droidian porters <info@droidian.org>
 Installed-Size: 55737
 Depends: linux-image-4.14-288-xiaomi-miatoll (= 0.0.0+git20221129000753.8baf03f.bookworm)
 Filename: pool/main/linux-headers-4.14-288-xiaomi-miatoll_0.0.0+git20221129000753.8baf03f.bookworm_arm64.deb
-Size: 8576360
-MD5sum: e561a4b1abcd8d69547ab425fe3b5b74
-SHA1: 882cd1ab9425d1b398014576208807f0682ca332
-SHA256: 98e1f0173c3c61cec7f29fa9c814775b0d35a29a15187a76b6cfbb1999aa9293
+Size: 8576368
+MD5sum: 108cd85392b617eeed92550437c3db80
+SHA1: f58a298e1699bfd127f094aa711cd0a22873f3dc
+SHA256: b70e66153ca978da5f60e0ff043bba61503436751af9d19b66dfea184b03b4dc
 Section: kernel
 Priority: optional
 Description: Linux kernel for Xiaomi Miatoll - Headers
@@ -125,10 +125,10 @@ Architecture: arm64
 Maintainer: Droidian porters <info@droidian.org>
 Installed-Size: 22315
 Filename: pool/main/linux-image-4.14-288-xiaomi-miatoll_0.0.0+git20221129000753.8baf03f.bookworm_arm64.deb
-Size: 16584908
-MD5sum: 965a10f392338ec655c1a8e06c5a89f9
-SHA1: 476726f0bace618d5d46850447fd128ea0e31d98
-SHA256: ead926050c882ac38e2f683b8631b7a8ece2266038fdcb8a0d0033093fd38da2
+Size: 16583788
+MD5sum: b9e8428dfd3287b17a6d4a95d77eab47
+SHA1: 8e3ef359a6007ef41bb31b9292cf923ec019a3a8
+SHA256: ffd1567c8eeeac2594cc4009d2fa1ae13cb7f16d2b79e984835e181d3e382816
 Section: kernel
 Priority: optional
 Description: Linux kernel for Xiaomi Miatoll
