@@ -1,6 +1,7 @@
 #!/bin/bash
 
-apt-get install linux-packaging-snippets
+apt-get install linux-packaging-snippets python3
+ln -s /usr/bin/python3 /usr/bin/python
 cd sources
 
 if [[ $_DEB_BUILD_TYPE == kernel ]]; 
