@@ -1,14 +1,14 @@
 Package: adaptation-miatoll
-Version: 0.0.0+git20221129000842.e9ce157.bookworm
+Version: 0.0.0+git20230124115321.018f6c1.bookworm
 Architecture: arm64
 Maintainer: Marcel Alexandru Nitan
 Installed-Size: 9
-Depends: lxc-android (>= 1:9), ofono-scripts, linux-bootimage-xiaomi-miatoll, adaptation-hybris-api29-phone, adaptation-miatoll-configs, droidatoll-sysfs-torch, callaudiod
-Filename: pool/main/adaptation-miatoll_0.0.0+git20221129000842.e9ce157.bookworm_arm64.deb
-Size: 2224
-MD5sum: 187f9a44ea60da8d16040576ca03c002
-SHA1: 80fcf96dde560b0592daf87e15cce44bf7df6e93
-SHA256: c14e40d82977c99c66c8b60f2fd68a22bc19305f3b5f27cb4a23bc29be77b661
+Depends: lxc-android (>= 1:9), ofono-scripts, linux-bootimage-xiaomi-miatoll, adaptation-hybris-api29-phone, adaptation-miatoll-configs, callaudiod
+Filename: pool/main/adaptation-miatoll_0.0.0+git20230124115321.018f6c1.bookworm_arm64.deb
+Size: 2216
+MD5sum: 33a7308a570bb2c73db0a94d7684d4e3
+SHA1: bb369145cc6d7d9f66b133a7c5c8a84cbbd71f3b
+SHA256: 65abe0a64f18b360a0cf472d51c803bc14dae078058c9b709c2e28a82c3af0d6
 Section: metapackages
 Priority: optional
 Description: adapatation-miatoll- meta
@@ -16,15 +16,15 @@ Description: adapatation-miatoll- meta
 
 Package: adaptation-miatoll-configs
 Source: adaptation-miatoll
-Version: 0.0.0+git20221129000842.e9ce157.bookworm
+Version: 0.0.0+git20230124115321.018f6c1.bookworm
 Architecture: arm64
 Maintainer: Marcel Alexandru Nitan
 Installed-Size: 105
-Filename: pool/main/adaptation-miatoll-configs_0.0.0+git20221129000842.e9ce157.bookworm_arm64.deb
-Size: 13668
-MD5sum: 9eb30d47d2d1ec0e1aa9f5778807bcd1
-SHA1: 8542f285a5f03bd228495ac122fac758b592b8f5
-SHA256: 107fc8c5f8d807022eb5385ffc24731d96b2ea69afa407d4d9aa080d0b120ea2
+Filename: pool/main/adaptation-miatoll-configs_0.0.0+git20230124115321.018f6c1.bookworm_arm64.deb
+Size: 13676
+MD5sum: afbffa253eb30b83d1b410a84a368448
+SHA1: 74005955e8b3e9723236fcd8c81c3ab73d824e98
+SHA256: 712c5aafc9d0de2b217459171d80cd8c15e585bc625f282d5c8506c6e78ddc27
 Section: metapackages
 Priority: optional
 Description: Miatoll's specific adaptation configs
