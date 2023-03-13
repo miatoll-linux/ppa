@@ -6,19 +6,19 @@ Version: 1.0
 Architectures: arm64
 Components: main
 Description: Adaptation repository for miatoll devices running droidian
-Date: Sat, 11 Mar 2023 23:46:37 +0000
+Date: Mon, 13 Mar 2023 21:13:51 +0000
 MD5Sum:
- 1234b58735d4f352a5dab3ee9571c242 874 Release.gpg
- 773af5f371acaa24864492a8e16cc0ed 6648 main/binary-arm64/Packages
- 9e4d1569e9de542838312d3f860e1e15 1863 main/binary-arm64/Packages.gz
- 427fd725c0c462ddc363e241342ecde4 2067 InRelease
+ a7ed7e600303096fa6850473f8968bbd 874 Release.gpg
+ 0bbcdf8c8c8a8cde2473236b6f342d72 6648 main/binary-arm64/Packages
+ a27fe00093f889acfe1f84f2e7d2a1ca 1861 main/binary-arm64/Packages.gz
+ 7be79166d66bdef4ac30e8b6242e1909 2067 InRelease
 SHA1:
- ec1cb0ac668bac2809b909da30bd47ee463541dd 874 Release.gpg
- 196bfd0557987ce9f70b75fd063e85bfbae6864f 6648 main/binary-arm64/Packages
- 29f597218d6bdd7cc4b9a8f3274d4aaeaf02f6b5 1863 main/binary-arm64/Packages.gz
- 48d5e46814941a5ab469378a5c6f1c94da0304ae 2067 InRelease
+ 0032d898c087140258a73c7303a13e7770c43345 874 Release.gpg
+ 1f2de4c4ae7547749c9c55473fc6732522bf5a9d 6648 main/binary-arm64/Packages
+ c4481089147bb642fcf817bf057bdaebe182b338 1861 main/binary-arm64/Packages.gz
+ ec367b44679993c74ddc0415e1a381b0fcd45416 2067 InRelease
 SHA256:
- 65f45ac8cef476a0f8a42e9df6640ef77db575c90d3e432196e19e229e3cb415 874 Release.gpg
- 9551e880f3851b8b4cbe5dca007d7eba653e93f68f4c6949bfb3d18f89f0a13a 6648 main/binary-arm64/Packages
- 57d63824fa2d61cd2e323edbaf894cf18cbd9f40a9db8d145a333be2f8948283 1863 main/binary-arm64/Packages.gz
- f78948aa301e0c3c483a990df263b7d162fb3c114662a98b9b152c33bb964c64 2067 InRelease
+ 86caaf156f0597aa346e1eccb1ad5338d99ee36d52331933facc9bad69276e75 874 Release.gpg
+ 92c2789d3f1317c566a647b132a7c77258f8a7b73d0c1eb28e93e29e964d57da 6648 main/binary-arm64/Packages
+ 9317c80599801791290bd12eb49e3eaf0a5ac601c8951533f989794758a05af6 1861 main/binary-arm64/Packages.gz
+ 96d3668bfec349a057672b21c09fb375ac65b40bc151375c7e484d865d4b470d 2067 InRelease
